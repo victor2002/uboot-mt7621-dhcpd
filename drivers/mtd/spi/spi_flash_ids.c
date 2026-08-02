@@ -79,6 +79,8 @@ const struct spi_flash_info spi_flash_ids[] = {
 	{"gd25lq32",	   INFO(0xc86016, 0x0, 64 * 1024,    64, SECT_4K) },
 	{"gd25lq64c", 	   INFO(0xc86017, 0x0, 64 * 1024,   128, RD_FULL | WR_QPP | SECT_4K) },
 	{"gd25q128", 	   INFO(0xc84018, 0x0, 64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
+	{"yc25q128", 	   INFO(0xd84018, 0x0, 64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
+	{"h25q128b", 	   INFO(0x684018, 0x0, 64 * 1024,   256, RD_FULL | WR_QPP | SECT_4K) },
 	{"gd25q16",        INFO(0xc84015, 0x0, 64 * 1024,    32, RD_FULL | SECT_4K) },
 	{"gd25q32",        INFO(0xc84016, 0x0, 64 * 1024,    64, RD_FULL | SECT_4K) },
 	{"gd25q64",        INFO(0xc84017, 0x0, 64 * 1024,   128, RD_FULL | SECT_4K) },
